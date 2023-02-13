@@ -1,3 +1,19 @@
+*{
+  font-family: Inter;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  background-color: #23252C;
   text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  max-width: 400px;
+  background-color: #1A1B21;
+  margin: 50px;
+  border-radius: 10px;
 }

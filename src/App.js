@@ -6,11 +6,13 @@ import Footer from './components/footer.js';
 
 function App() {
   return (
-    <div className="App">
-      < Info/>
-      < About/>
-      < Interests/>
-      < Footer/>
+    <div className='App'>
+      <div className='card'>
+        < Info/>
+        < About/>
+        < Interests/>
+        < Footer/>
+      </div>
     </div>
   );
 }
