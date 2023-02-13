@@ -1,6 +1,14 @@
+import Github from '../iconGitHub.png';
+import Twitter from '../iconTwitter.png';
+import Instagram from '../iconInstagram.png';
+
 function Footer() {
     return (
-        <h1>This is the footer section</h1>
+        <div>
+            <img src={Github}></img>
+            <img src={Twitter}></img>
+            <img src={Instagram}></img>
+        </div>
     )
 }
 
