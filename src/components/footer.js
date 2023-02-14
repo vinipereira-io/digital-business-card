@@ -4,7 +4,7 @@ import Instagram from '../iconInstagram.png';
 
 function Footer() {
     return (
-        <div>
+        <div className='Footer'>
             <img src={Github}></img>
             <img src={Twitter}></img>
             <img src={Instagram}></img>

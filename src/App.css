@@ -110,3 +110,18 @@ button[data-destination='linkedin'] {
 .Interests > p {
   margin-top: 5px;
 }
+
+.Footer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0px;
+  column-gap: 25px;
+  background-color: #161619;
+  margin-top: 40px;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Footer > img {
+  width: 25px;
+}
