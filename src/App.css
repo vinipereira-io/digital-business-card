@@ -1,12 +1,46 @@
 *{
   font-family: Inter;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;  
+}
+
+h3 {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+}
+
+p {
+  color: white;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+button {
+  width: 115px;
+  height: 35px;
+  border-width: 0px;
+  border-radius: 6px;
 }
 
 .App {
   display: flex;
   flex-direction: column;
   background-color: #23252C;
-  text-align: center;
   align-items: center;
   justify-items: center;
 }
@@ -16,4 +50,32 @@
   background-color: #1A1B21;
   margin: 50px;
   border-radius: 10px;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.Info > h1 {
+  margin-top: 20px;
+}
+
+.Info > p {
+  margin-top: 10px;
+}
+
+.Info--buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  column-gap: 17px;
+  align-self: center;
+}
+
+button[data-destination='linkedin'] {
+  background-color: #5093E2;
+  color: white;
 }
