@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-  color: #F3BF99;
+  color: #5093E2;
   font-weight: 400;
   font-size: 13px;
   line-height: 150%;
@@ -64,6 +64,10 @@ button {
   flex-direction: column;
   align-content: center;
   text-align: center;
+}
+
+.Info > img {
+  border-radius: 10px 10px 0px 0px;
 }
 
 .Info--content {
@@ -122,6 +126,6 @@ button[data-destination='linkedin'] {
   border-radius: 0px 0px 10px 10px;
 }
 
-.Footer > img {
+.Footer > a > img {
   width: 25px;
 }
