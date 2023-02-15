@@ -44,6 +44,10 @@ button {
   border-radius: 6px;
 }
 
+form {
+  width: 100%;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -93,6 +97,8 @@ button {
   column-gap: 17px;
   align-self: center;
 }
+
+
 
 button[data-destination='linkedin'] {
   background-color: #5093E2;

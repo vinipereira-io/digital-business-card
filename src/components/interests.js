@@ -2,7 +2,7 @@ function Interests() {
     return (
         <div className='Interests'>
             <h2>Interests</h2>
-            <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</p>
+            <p>Low-code. Startup. Technology for a better world. Sustainable businesses and resources. Dividend investment. Traveling. Reading.</p>
         </div>
     )
 }
